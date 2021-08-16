@@ -1,0 +1,24 @@
+.nav-item{
+    font-family:Andale Mono, monospace;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    background-color: rgb(91, 198, 248);
+    border-radius: 9px;
+}
+#navbar{
+    box-shadow: 2px 2px 5px rgb(94, 83, 83);
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+    font-family: Impact, fantasy;
+    transition: translate(25%,50%);
+    animation: blinkingText 2s infinite;
+}
+@keyframes blinkingText {
+    0%		{ color: #069e2c;}
+	25%		{ color: #065ad8;}
+	75%		{ color: #fa0fbf;}
+	100%	{ color: #a8d504;}
+  }
